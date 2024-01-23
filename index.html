@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primi passioperativiper creare un modello di pagina HTML per un post.Scopri come iniziare in modo facile">
+    
+                <title>Document</title>
+</head>
+<header>
+         <img src="assets/img/logo.svg" alt="immagine epicod" width="150px">
+         <p>Epicode il blog dei developer</p>
+  <nav>
+     <ul>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">Articoli</a></li>
+        <li><a href="#">Job</a></li>
+     </ul>
+  
+
+  </nav>
+  </header>
+
+ <hr/>
+   <body>
+     <main>
+      <section>
+        <article>
+
+    <h2>Come creare un template per i post</h2>
+    <cite>di Mario Rossi</cite>
+    <cite>pubblicato il 25.10.2020</cite>
+    <p>la prima cosa da fare è suddividere in blocchi logici la pagina,identificando le <strong>parti comuni </strong>da
+     da applicare a tutte le pagine</p>
+
+    <p>le varie aree saranno suddivise in:</p>
+
+    <ul>
+        <li>Contenuti di intestazione dei tag <code>&lt;header&gt;</code>           </li>
+        <li>Contenuti centrali variabili dei tag <code>&lt;main&gt;</code>          </li>
+        <li>Cotenuti di fine pagina,da inserire nel tag <code>&lt;footer&gt;</code> </li>
+    </ul>
+
+    <h2>Formazione del codice</h2>
+
+    <p>il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <strong>selezionare con i CSS</strong>
+    perciò i passi saranno:</p>
+
+    <ol>
+          <li>Proggettare in carta il markup finale assegnando ad ogni specifico testo il tag appropriato </li>
+          <li>scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso                 </li>
+          <li>applicare gli stili CSS                                                                     </li>
+    </ol>
+
+    <p>l'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+
+</article>
+  </section>
+     <section>
+        <article>
+      <table>
+           <caption>Diffusione del CSS</caption>
+           <thead>
+            <tr>
+                <td>Anno</td>
+                <td>&percnt;di utilizzo</td>
+                <td>Supporto browser</td>
+            </tr>
+            <tbody>
+            <tr>
+                <td>2000</td>
+                <td>20&percnt;</td>
+                <td>17&percnt;</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>35&percnt;</td>
+                <td>22&percnt;</td>
+            </tr>
+            <tr>
+                <td>2004</td>
+                <td>45&percnt;</td>
+                <td>42&percnt;</td>
+            </tr>
+            <tr>
+                <td>2008</td>
+                <td>80&percnt;</td>
+                <td>51&percnt;</td>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>100&percnt;</td>
+                <td>76&percnt;</td>
+            </tr>
+      </tbody>
+          </thead>
+            </table>
+
+        <p>Un test di validazione potrà essere fatto tramite il
+        
+          <a href="https://jigsaw.w3.org/css-validator/" 
+           target="_blank"
+           title="CSS Validator">tool online</a>
+           dedicato allo scopo.una volta ottimizzato il tutto
+           avremo raggiunto ill nostro obbiettivo ed essere stati dei veri developer
+           come loro:
+        </p>
+      
+      <iframe width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/dvOvHXruEDM?si=hO6C8n15R9PAoufJ" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+
+      </iframe>
+
+
+
+  </article>
+    </section>
+       </main>
+  <div>
+    <h2>Novità</h2>
+
+    <p>vuoi rimanere aggiornato su altre novità del blog</p>
+    <fieldset>
+        <input type="email" placeholder="inserisci l'email" required>
+        <button type="button" id="inserisci" >iscrivetevi</button>
+    </fieldset>
+  </div>
+
+  <aside>
+    <h2>Articoli correlati</h2>
+    <p><a href="#">Validare il codice HTML</a></p>
+    <p>categoria developer</p>
+    <p>Data:19-09-2020</p>
+
+    <p><a href="#">Correggere la sintassi</a></p>
+    <p>categoria developer</p>
+    <p>Data:16-09-2020</p>
+
+    <p><a href="#">Meno KB nella pagina</a> </p>
+    <p>categoria developer</p>
+    <p>Data:30-09-2020</p>
+  </aside>
+
+  <footer>
+    <hr>
+    <p>Blog Epicode &copy;2021</p>
+    <address>
+        Testare online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 -Milano <P class="IVA">''112233. <a href="mailto:info@epicode.school">info@epicode.school</a></P>
+    </address>
+  </footer>
+     </body>
+        </html>
